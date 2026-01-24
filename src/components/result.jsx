@@ -14,7 +14,7 @@ const Result = ({ score, totalQuestions, onRestart, answers, totalTimeTaken }) =
       bgColor: 'bg-blue-100',
       textColor: 'text-blue-800',
       icon: '🏆',
-      message: 'Outstanding performance! You\'re a quiz master!'
+      message: 'Outstanding performance! You&apos;re a quiz master!'
     };
     if (percentage >= 70) return {
       category: 'Great Job!',
@@ -38,7 +38,7 @@ const Result = ({ score, totalQuestions, onRestart, answers, totalTimeTaken }) =
       bgColor: 'bg-sky-100',
       textColor: 'text-sky-800',
       icon: '💪',
-      message: 'Don\'t give up! Practice makes perfect!'
+      message: 'Don&apos;t give up! Practice makes perfect!'
     };
   };
 
@@ -97,7 +97,7 @@ const Result = ({ score, totalQuestions, onRestart, answers, totalTimeTaken }) =
             <h2 className="text-4xl font-bold mb-2 bg-gradient-to-r from-blue-600 to-cyan-600 bg-clip-text text-transparent">
               Quiz Completed!
             </h2>
-            <p className="text-gray-600 text-lg">Here's how you performed</p>
+            <p className="text-gray-600 text-lg">Here&apos;s how you performed</p>
           </div>
 
           {/* Score Circle */}
